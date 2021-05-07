@@ -45,7 +45,7 @@ I used Spark Structure Streaming because is more inclined towards real-time stre
 	<b>source iti41/bin/activate</b><br>
 
 ## Instructions to run the project
-First, run the <b>Part 1:</b> <i>Kafka_Producer.py</i> and let it continue running. <br> 
-	<b>python Kafka_Producer.py</b><br>
-Then, run the <b>Part 2:</b> <i>Spark_Consumer.py</i> from a different cmd. <br>
-	<b>spark-submit --packages org.apache.spark:spark-streaming-kafka-0-10_2.12:2.4.3,org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.3 Spark_Consumer.py</b>
+First, run the <b>Part 1:</b> <i>Fetching_Tweets.py</i> and let it continue running. <br> 
+	<b>python Fetching_Tweets.py</b><br>
+Then, run the <b>Part 2:</b> <i>Sentiment_Analysis.py</i> from a different cmd. <br>
+	<b>spark-submit --packages org.apache.spark:spark-streaming-kafka-0-10_2.12:2.4.3,org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.3 Sentiment_Analysis.py</b>
